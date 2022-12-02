@@ -21,7 +21,7 @@ export default class Deck {
         this.cards = cards
     }
     
-    //shorthand for this.cards.length
+    //shorthand for this.cards.length so I don't have to keep typing that
     get numberOfCards(){
         return this.cards.length
     }
