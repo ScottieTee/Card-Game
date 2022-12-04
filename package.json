@@ -1,0 +1,23 @@
+{
+  "name": "card-game",
+  "version": "1.0.0",
+  "description": "A program that accepts as its input a collection of hands of cards, and selects the winner from among those hands.",
+  "main": "script.js",
+  "type": "module",
+  "scripts": {
+    "run": "node script.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ScottieTee/Card-Game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ScottieTee/Card-Game/issues"
+  },
+  "homepage": "https://github.com/ScottieTee/Card-Game#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
