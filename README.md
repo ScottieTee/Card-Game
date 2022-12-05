@@ -1,3 +1,11 @@
+# Installation
+clone the repository, run git init
+
+# Usage
+In the terminal run "node script.js" 
+User is prompted to enter an amount of players greater than 0 and less than 24. 
+Player id's will be created as hands are input into the console by pressing enter until all players have hands, then the winning player id is output into the console. 
+
 # Card-Game
 A program that accepts as its input a collection of hands of cards, and selects the winner from among those hands.
 

@@ -1,4 +1,12 @@
+test input text options
+
 3
 2c As 4d
 Kd 5h 6c
 Jc Jd 9s
+
+4
+Qc Kc 4s
+Ah 2c Js
+Tc 9c 3c
+Kd 5h 6c
