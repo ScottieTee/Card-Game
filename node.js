@@ -64,4 +64,21 @@ TypeError: Cannot read properties of undefined (reading 'rank')
 0 [s[2K[0G0 4[4G[s[2K[0G0 4h[5G[s[2K[0G0 4h5[6G[s[2K[0G0 4h5d[7G[s[2K[0G0 4h5d6[8G[s[2K[0G0 4h5d6c[9G[1D[1D[s[2K[0G0 4h5d 6c[8G[1D[1D[1D[s[2K[0G0 4h 5d 6c[6G[7G[8G[9G[10G[11G
 1 [s[2K[0G1 3[4G[s[2K[0G1 3c[5G[s[2K[0G1 3c [6G[s[2K[0G1 3c 4[7G[s[2K[0G1 3c 4c[8G[s[2K[0G1 3c 4c [9G[s[2K[0G1 3c 4c 5[10G[s[2K[0G1 3c 4c 5c[11G
 1
+[1m[7m%[27m[1m[0m                                                                                                                                                   ]633;D;0]633;P;Cwd=/Users/scotthompson/Desktop/Card-Game[0m[27m[24m[J]633;Ascotthompson@Scots-MacBook-Pro Card-Game % ]633;B[K[?2004hggit add .[?2004l
+]633;C]633;E;git add .[1m[7m%[27m[1m[0m                                                                                                                                                   ]633;D;0]633;P;Cwd=/Users/scotthompson/Desktop/Card-Game[0m[27m[24m[J]633;Ascotthompson@Scots-MacBook-Pro Card-Game % ]633;B[K[?2004hggit commit -m "final version of card game"[?2004l
+]633;C]633;E;git commit -m "final version of card game"[main e5f968a] final version of card game
+ 8 files changed, 256 insertions(+), 225 deletions(-)
+ rewrite Xdeck.js (85%)
+ rewrite hand.js (95%)
+ create mode 100644 node.js
+[1m[7m%[27m[1m[0m                                                                                                                                                   ]633;D;0]633;P;Cwd=/Users/scotthompson/Desktop/Card-Game[0m[27m[24m[J]633;Ascotthompson@Scots-MacBook-Pro Card-Game % ]633;B[K[?2004hggit oush iri       push origin a main[?2004l
+]633;C]633;E;git push origin mainEnumerating objects: 18, done.
+Counting objects:   5% (1/18)Counting objects:  11% (2/18)Counting objects:  16% (3/18)Counting objects:  22% (4/18)Counting objects:  27% (5/18)Counting objects:  33% (6/18)Counting objects:  38% (7/18)Counting objects:  44% (8/18)Counting objects:  50% (9/18)Counting objects:  55% (10/18)Counting objects:  61% (11/18)Counting objects:  66% (12/18)Counting objects:  72% (13/18)Counting objects:  77% (14/18)Counting objects:  83% (15/18)Counting objects:  88% (16/18)Counting objects:  94% (17/18)Counting objects: 100% (18/18)Counting objects: 100% (18/18), done.
+Delta compression using up to 2 threads
+Compressing objects:  11% (1/9)Compressing objects:  22% (2/9)Compressing objects:  33% (3/9)Compressing objects:  44% (4/9)Compressing objects:  55% (5/9)Compressing objects:  66% (6/9)Compressing objects:  77% (7/9)Compressing objects:  88% (8/9)Compressing objects: 100% (9/9)Compressing objects: 100% (9/9), done.
+Writing objects:  10% (1/10)Writing objects:  20% (2/10)Writing objects:  30% (3/10)Writing objects:  40% (4/10)Writing objects:  50% (5/10)Writing objects:  60% (6/10)Writing objects:  70% (7/10)Writing objects:  80% (8/10)Writing objects:  90% (9/10)Writing objects: 100% (10/10)Writing objects: 100% (10/10), 3.44 KiB | 3.44 MiB/s, done.
+Total 10 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/4)[Kremote: Resolving deltas:  25% (1/4)[Kremote: Resolving deltas:  50% (2/4)[Kremote: Resolving deltas:  75% (3/4)[Kremote: Resolving deltas: 100% (4/4)[Kremote: Resolving deltas: 100% (4/4), completed with 4 local objects.[K
+To github.com:ScottieTee/Card-Game.git
+   26924c0..e5f968a  main -> main
 [1m[7m%[27m[1m[0m                                                                                                                                                   ]633;D;0]633;P;Cwd=/Users/scotthompson/Desktop/Card-Game[0m[27m[24m[J]633;Ascotthompson@Scots-MacBook-Pro Card-Game % ]633;B[K[?2004h
