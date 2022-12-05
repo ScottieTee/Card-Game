@@ -1,38 +1,39 @@
 import Hand from "./hand.js"
 import prompt from 'prompt-sync';
 
-// const deck = new Deck()
-// deck.shuffle()
-// console.log(deck.cards)
-
-// //need to establish a function here for when a player enters in this amount of players
-// let numberOfPlayers = 2
-// const players = prompt()('');
+const players = prompt()('');
 // // console.log(`Hey there ${players}`);
-// const numberOfPlayers = Number(players)
-
-// //aggregate user input
-// let userInput = []
-
-// for (let i= 0; i < numberOfPlayers; i ++ ) {
-//     const newPrompt = prompt()(`${i} `)
-//     userInput.push(newPrompt)
-// }
-// console.log(userInput);
-
-const numberOfPlayers = 3
+const numberOfPlayers = Number(players)
 
 //aggregate user input
-let userInput = [
-    '2c As 4d',
-    'Kd 5h 6c',
-    'Jc Jd 9s',
-]
+let userInput = []
 
-let hands = userInput.map(i => new Hand(i))
-console.log(hands)
+for (let i= 0; i < numberOfPlayers; i ++ ) {
+    const newPrompt = prompt()(`${i} `)
+    userInput.push(newPrompt)
+}
 
-hands.forEach(hand => console.log(hand.getHandValue()))
+
+
+let hands = userInput.map((val, i) => new Hand(val, i))
+
+
+hands.sort((a,b) =>  b.value - a.value)
+
+
+let winners = [hands[0].order]
+let winningValue =  hands[0].value
+for(let i = 1; i < hands.length; i++) {
+    if(hands[i].value == winningValue) {
+        winners.push(hands[i].order)
+    } else {
+        break
+    }
+}
+
+console.log(winners.join(', '))
+
+
 
 
 // const computerDeckElement = document.querySelector('.computer-deck')
